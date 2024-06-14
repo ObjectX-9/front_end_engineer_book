@@ -1,6 +1,6 @@
 ---
 group:
-  title: 开发指南
+  title: 项目搭建篇
 title: 主题
 order: 3
 ---
