@@ -46,8 +46,8 @@ export default defineConfig({
   },
   hash: isProd,
   // 这里用你的仓库名
-  base: isProd ? '/book_template/' : '/', // router base
-  publicPath: isProd ? '/book_template/' : '/', // router base
+  base: isProd ? '/front_end_engineer_book/' : '/', // router base
+  publicPath: isProd ? '/front_end_engineer_book/' : '/', // router base
   headScripts: [
     {
       async: true,
