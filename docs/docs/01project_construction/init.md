@@ -1,8 +1,9 @@
 ---
 group:
-  title: 项目搭建篇
-title: 主题
-order: 3
+  title: 01项目搭建篇
+  order: 1
+title: 项目初始化
+order: 2
 ---
 
 <Desc>
