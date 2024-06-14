@@ -8,7 +8,7 @@ export default defineConfig({
   exportStatic: isProd ? {} : false,
   title: 'ObjectX前端工程化实践',
   mode: 'site',
-  favicon: '/objectX.png',
+  favicon: 'https://s21.ax1x.com/2024/06/14/pkdLxmt.png',
   extraBabelPlugins: [
     [
       'import',
@@ -22,7 +22,7 @@ export default defineConfig({
   theme: {
     '@primary-color': '#fff',
   },
-  logo: '/objectX.png',
+  logo: 'https://s21.ax1x.com/2024/06/14/pkdLxmt.png',
   themeConfig: {
     repository: {
       url: '',
