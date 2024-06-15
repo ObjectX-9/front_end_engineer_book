@@ -15,7 +15,7 @@ order: 1
 # 🥑 实现效果&代码
 [在线demo体验](https://objectx-9.github.io/react_demo/?path=/docs/%E9%80%9A%E7%94%A8-button--docs)
 
-![2024-05-18 14.25.56.gif](./assets/瀑布流.gif)
+![2024-05-18 14.25.56.gif](https://cdn.jsdelivr.net/gh/ObjectX-9/DrawingBed/imgMac/%E7%80%91%E5%B8%83%E6%B5%81.gif)
 
 # 🍐 一、storybook使用
 安装和配置过程我们[之前](https://juejin.cn/post/7355026320088989733)已经搞定了，现在我们介绍如何书写。
@@ -114,7 +114,7 @@ export const fetchRandomImage = async (imgNums: number) => {
 ### 效果
 [在线demo体验](https://zhuling904.github.io/react_demo/?path=/story/%E9%80%9A%E7%94%A8-waterfall%E7%80%91%E5%B8%83%E6%B5%81--column-waterfall)
 
-![2024-05-14 22.27.17.gif](./assets/clumn.gif)
+![2024-05-14 22.27.17.gif](https://cdn.jsdelivr.net/gh/ObjectX-9/DrawingBed/imgMac/clumn.gif)
 ### 原理
 `column` 属性是`CSS3`中引入的一个模块，它允许你将内容分为多列，就像报纸或杂志那样。这个属性可以让你轻松地创建多列布局，而不需要复杂的标记或脚本。`column` 属性包括几个子属性，用于控制列的数量、宽度、间距以及内容如何在这些列之间流动。
 
@@ -269,7 +269,6 @@ export const Waterfall = ({
 ### 效果
 [在线demo体验](https://zhuling904.github.io/react_demo/?path=/story/%E9%80%9A%E7%94%A8-waterfall%E7%80%91%E5%B8%83%E6%B5%81--flex-waterfall)
 
-![2024-05-18 11.19.13.gif](./assets/flex.gif)
 ### 原理
 用一个大的flex容器，设置主轴方向为`row`，根据`props`中的最大列数创建小的子集容器，设置主轴方向为`column`，从上到下，从左到右渲染图片，需要自行切割图片数据放入不同的列中，存在一种情况就是，如果切割后的数据总长度是相等的，那么瀑布流最后的长度就是一致的。
 
@@ -367,7 +366,7 @@ const flexTypeRender = (options: WaterfallProps) => {
 ### 效果
 [在线demo体验](https://zhuling904.github.io/react_demo/?path=/story/%E9%80%9A%E7%94%A8-waterfall%E7%80%91%E5%B8%83%E6%B5%81--grid-waterfall)
 
-![2024-05-18 11.26.13.gif](./assets/grid.gif)
+![2024-05-18 11.26.13.gif](https://cdn.jsdelivr.net/gh/ObjectX-9/DrawingBed/imgMac/grid.gif)
 
 ### 原理
 先给网格设置一个默认的行高`grid-auto-rows: 10px`，然后在图片加载完成后去计算计算图片真实占据的高度
@@ -497,7 +496,7 @@ const gridTypeRender = (options: WaterfallProps) => {
 ### 效果
 [在线体验demo](https://zhuling904.github.io/react_demo/?path=/story/%E9%80%9A%E7%94%A8-waterfall%E7%80%91%E5%B8%83%E6%B5%81--js-waterfall)
 
-![2024-05-18 14.25.56.gif](./assets/原生js.gif)
+![2024-05-18 14.25.56.gif](https://cdn.jsdelivr.net/gh/ObjectX-9/DrawingBed/imgMac/%E5%8E%9F%E7%94%9Fjs.gif)
 
 ### 原理
 先给每一个项目设置一个默认高度，使用一个数据记录每一列的高度，每次将新插入的图片放入高度最低的一列，重新计算该列高度。循环插入即可。

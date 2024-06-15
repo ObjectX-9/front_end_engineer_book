@@ -14,15 +14,15 @@ order: 1
 
 ## 定高
 
-![2024-05-25 19.39.29.gif](./assets/定高.gif)
+![2024-05-25 19.39.29.gif](https://cdn.jsdelivr.net/gh/ObjectX-9/DrawingBed/imgMac/%E5%AE%9A%E9%AB%98.gif)
 
 ## 不定高
 
-![2024-05-25 19.40.10.gif](./assets/不定高.gif)
+![2024-05-25 19.40.10.gif](https://cdn.jsdelivr.net/gh/ObjectX-9/DrawingBed/imgMac/%E4%B8%8D%E5%AE%9A%E9%AB%98.gif)
 
 ## 动态高度
 
-![2024-05-25 19.40.47.gif](./assets/动态高度.gif)
+![2024-05-25 19.40.47.gif](https://cdn.jsdelivr.net/gh/ObjectX-9/DrawingBed/imgMac/%E5%8A%A8%E6%80%81%E9%AB%98%E5%BA%A6.gif)
 
 # 工程化
 本系列是一个从0到1的实现过程，如果您有耐心跟着实现，您可以实现一个完整的`react18 + ts5 + webpack5 + 代码质量&代码风格检测&自动修复 + storybook8 + rollup + git action`实现的一个完整的组件库模板项目。如果您不打算自己配置，也可以直接clone[组件库仓库](https://github.com/ObjectX-9/react_demo)切换到`rollup_comp`分支即是完整的项目，当前实现已经足够个人使用，后续我们会新增webpack5优化、按需加载组件、实现一些常见的组件封装：包括但不限于拖拽排序、瀑布流、穿梭框、弹窗等  
@@ -46,7 +46,7 @@ order: 1
 + 动态高度虚拟列表，每一项的高度在渲染时确认
 
 对于所有虚拟列表而言，我们的实现考虑的都是如何计算出可视区域的节点索引范围，即`[startIndex, endIndex]`，然后加上缓冲区的大小，将此范围内的节点渲染到容器中，我们最根本的目的是计算起始索引`startIndex`和终止索引`endIndex`。
-![image-20240615143123946](./assets/image-20240615143123946.png)
+![image-20240615143123946](https://cdn.jsdelivr.net/gh/ObjectX-9/DrawingBed/imgMac/image-20240615143123946.png)
 
 
 
@@ -163,7 +163,7 @@ const getCurShowChild = (options: VirtualListProps) => {
 ### 效果
 [在线demo体验](https://zhuling904.github.io/react_demo/?path=/story/%E9%80%9A%E7%94%A8-virtuallist%E8%99%9A%E6%8B%9F%E5%88%97%E8%A1%A8--fixed-height)
 
-![2024-05-25 19.39.29.gif](./assets/定高.gif)
+![2024-05-25 19.39.29.gif](https://cdn.jsdelivr.net/gh/ObjectX-9/DrawingBed/imgMac/%E5%AE%9A%E9%AB%98.gif)
 
 ## 2.不定高虚拟列表
 ### 图示
@@ -392,7 +392,7 @@ const getCurShowChild = (options: VirtualListProps, scrollTop: number) => {
 ### 效果
 [在线demo体验](https://zhuling904.github.io/react_demo/?path=/story/%E9%80%9A%E7%94%A8-virtuallist%E8%99%9A%E6%8B%9F%E5%88%97%E8%A1%A8--uncertain-height)
 
-![2024-05-25 19.40.10.gif](./assets/不定高.gif)
+![2024-05-25 19.40.10.gif](https://cdn.jsdelivr.net/gh/ObjectX-9/DrawingBed/imgMac/%E4%B8%8D%E5%AE%9A%E9%AB%98.gif)
 
 ## 3.动态高度虚拟列表
 ### 图示
@@ -547,7 +547,7 @@ const sizeChangeHandle = (index: number, domNode: HTMLDivElement) => {
 ### 效果
 [在线demo体验](https://zhuling904.github.io/react_demo/?path=/story/%E9%80%9A%E7%94%A8-virtuallist%E8%99%9A%E6%8B%9F%E5%88%97%E8%A1%A8--dynamic-height)
 
-![2024-05-25 19.40.47.gif](./assets/动态高度.gif)
+![2024-05-25 19.40.47.gif](https://cdn.jsdelivr.net/gh/ObjectX-9/DrawingBed/imgMac/%E5%8A%A8%E6%80%81%E9%AB%98%E5%BA%A6.gif)
 
 # 参考文章
 + [「前端进阶」高性能渲染十万条数据(虚拟列表)](https://juejin.cn/post/6844903982742110216?searchId=202405151054293D6A8B7D5246CA76F132)
