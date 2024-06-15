@@ -9,7 +9,7 @@ hero:
     - link: https://github.com/ObjectX-9/front_end_engineer_book
       text: GitHub
       hot: true
-    - link: /docs
+    - link: /01docs
       text: 快速开始
 ---
 
