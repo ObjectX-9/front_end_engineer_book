@@ -9,6 +9,9 @@ hero:
     - link: /docs
       text: 快速开始
       hot: true
-    - link: https://github.com/ObjectX-9/front_end_engineer_book
+    - path: https://github.com/ObjectX-9/front_end_engineer_book
       text: GitHub
 ---
+
+
+

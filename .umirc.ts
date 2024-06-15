@@ -23,24 +23,14 @@ export default defineConfig({
     '@primary-color': '#fff',
   },
   logo: 'https://s21.ax1x.com/2024/06/14/pkdLxmt.png',
-  themeConfig: {
-    repository: {
-      url: '',
-      branch: 'main',
-      platform: 'github',
+  themeConfig: {},
+  navs: [
+    null,
+    {
+      title: '⭐️Github',
+      path: 'https://github.com/ObjectX-9/front_end_engineer_book',
     },
-    qrcode:
-      'tuyaSmart--addVirtualDev?productId=mvhcrizelobov3dw&token=release_common_component',
-    apiData: 'https://unpkg.com/tuya-panel-kit-props-data/props.json',
-    demoUrl:
-      process.env.NODE_ENV === 'development'
-        ? // ? 'http://localhost:8001'
-          'https://tuya.github.io/tuya-panel-kit/tuya-panel-kit/'
-        : 'https://tuya.github.io/tuya-panel-kit/tuya-panel-kit/',
-    demoInfoUrl:
-      'https://github.com/tuya/tuya-panel-kit/blob/master/example/tuya-panel-kit/src/pages{demo}/index.tsx',
-    typeAssetsUrl: 'https://panel-docs.tuyacn.com/types-assets.json',
-  },
+  ],
   resolve: {
     passivePreview: true,
   },
@@ -48,12 +38,4 @@ export default defineConfig({
   // 这里用你的仓库名
   base: isProd ? '/front_end_engineer_book/' : '/', // router base
   publicPath: isProd ? '/front_end_engineer_book/' : '/', // router base
-  headScripts: [
-    {
-      async: true,
-      src:
-        '//static1.tuyacn.com/static/ty-lib/tpm3/tpm-3.3.11.min.js?appId=panel-docs',
-    },
-  ],
-  // more config: https://d.umijs.org/config
 } as IConfig);
