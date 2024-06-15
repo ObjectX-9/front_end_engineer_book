@@ -27,7 +27,7 @@ export default defineConfig({
   navs: [
     null,
     {
-      title: '⭐️Github',
+      title: '⭐️GitHub',
       path: 'https://github.com/ObjectX-9/front_end_engineer_book',
     },
   ],

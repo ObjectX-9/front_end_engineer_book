@@ -6,11 +6,11 @@ hero:
   background: https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRyPCaqtKIDy8rN08fghsLhKKIL00B5JY4LbpVNLhQRYSVfxOquhQU1cUVBqMCBrMPbFbU&usqp=CAU
   image: https://s21.ax1x.com/2024/06/14/pkdLxmt.png
   actions:
+    - link: https://github.com/ObjectX-9/front_end_engineer_book
+      text: GitHub
+      hot: true
     - link: /docs
       text: 快速开始
-      hot: true
-    - path: https://github.com/ObjectX-9/front_end_engineer_book
-      text: GitHub
 ---
 
 
